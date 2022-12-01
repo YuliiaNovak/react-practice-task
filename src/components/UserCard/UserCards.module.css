@@ -1,0 +1,6 @@
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  margin: 3em 0 0 2em;
+  flex-wrap: wrap;
+}

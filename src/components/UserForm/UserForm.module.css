@@ -1,0 +1,59 @@
+.form {
+  background: rgba(255, 255, 255, 0.789);
+  margin: 3em;
+  width: max-content;
+  padding: 1.5em;
+  height: auto;
+  border-radius: 20px;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  font-family: Montserrat, sans-serif;
+  }
+
+  input {
+    background: transparent;
+    width: 100%;
+    padding: .8em;
+    margin: 1em 0 1em 0;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    font-family: Montserrat, sans-serif;
+    transition: all 0.2s ease-in-out;
+  }
+
+  input:hover {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+    outline: rgb(212, 205, 205)
+  }
+
+  input:focus {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+    outline: rgb(212, 205, 205)
+  }
+
+  .wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.7);
+    z-index: 2;
+  }

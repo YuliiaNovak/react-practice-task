@@ -1,0 +1,28 @@
+.button {
+  background: rgba(255, 255, 255, 0.69);
+  width: auto 20% ;
+  padding: 1em 1.5em;
+  margin-top: 1.5em;
+  border: none;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+  font-family: Montserrat, sans-serif;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.789);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  outline: rgb(212, 205, 205)
+}
+
+.button:focus {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+  outline: rgb(212, 205, 205)
+}
